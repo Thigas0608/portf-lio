@@ -181,7 +181,7 @@ section.sobre .txt-sobre p{
     text-align: justify;
 }
 
-section.sobre .txt-sobre .btn-social button{
+.btn-social button{
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -244,7 +244,7 @@ section.portfolio .flex{
 
 /* ESTILO DO FORMULARIO DE CONTATO */
 section.formulario{
-    padding: 90px 4%;
+    padding: 130px 4%;
 }
 
 form{
@@ -287,4 +287,29 @@ form .btn-enviar input{
     transition: .2s;
 }
 
+/* ESTILO DO RODAPÉ */
+footer{
+    padding: 40px 4%;
+    box-shadow: 0 0 40px 10px #ffffff1d;
+}
 
+footer .flex{
+    justify-content: space-between;
+}
+
+footer .line-footer{
+    padding: 40px 0;
+}
+
+.line-footer.borda {
+    border-top: 2px solid #00FF08;
+}
+
+footer .line-footer p i{
+    color: #00FF08;
+    font-size: 22px;
+}
+
+footer .line-footer p a{
+    color: #fff;
+}
